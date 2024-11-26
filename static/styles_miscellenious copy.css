@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+}
+
+/* Estilos del countdown */
+
+.countdown-container {
+    color: #ffff;
+    margin: 0;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.countdown-container h3 {
+color: #ffff;
+font-weight: normal;
+letter-spacing: .125rem;
+text-transform: uppercase;
+}
+
+.countdown-container ul {
+    margin: 0;
+    padding: 0;
+}    
+
+.countdown-container li {
+display: inline-block;
+font-size: 1.5em;
+list-style-type: none;
+padding: 0.5em;
+text-transform: uppercase;
+}
+
+.countdown-container li span {
+display: block;
+font-size: 2.5rem;
+}
+
+@media all and (max-width: 768px) {
+.countdown-container li {
+    font-size: calc(1.125rem * var(--smaller));
+}
+}
+
+/* Estilos del dialog (de los usuarios que ingresan del qr y de la preventa*/
+
+dialog::backdrop {
+    backdrop-filter: blur(5px); /* Ajusta el valor según lo deseado */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+dialog {
+    width: 40%;
+    background-color: #ffff;
+    border: none;
+    border-radius: 30px;
+    padding: 50px 60px;
+
+}
+
+.preorder-modal-interior {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+dialog img{
+    width: 80%;
+}
+
+.dialog-p-1111 {
+    margin: 0 0 1.5rem 0;
+}
+
+.field-1111 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.field-1111 label{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.field-1111 input{
+    border-radius: 30px;
+    height: 3rem;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.modal-otg1111 {
+    margin: 40px 0;
+}
+
+.modal-otg1111 p {
+    margin: 0;
+}
+
+.buttons-dialog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-btn {
+    padding: 18px 20px;
+    min-width: 50%;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    dialog {
+        width: 60%;
+        background-color: #ffff;
+        border: none;
+        border-radius: 30px;
+        padding: 40px 60px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    dialog {
+        width: 80%;
+        background-color: #ffff;
+        border: none;
+        border-radius: 30px;
+        padding: 15px 40px;
+
+    }
+    dialog img{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .form-content {
+        margin-top: 40px;
+    }
+
+    .buttons-dialog {
+        margin-top: 40px;
+    }    
+
+    .modal-btn {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+}
+
+/* Estilos del dialog (de los usuarios que ingresan del qr*/
+
+.normal-modal-interior {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-close:focus {
+    outline: none; 
+    box-shadow: none;
+}
+
+
+
+#add-message {
+    margin-top: 10px;
+}
+
+/* Animaciones */
+
+.otg-fade-in{
+    animation: opacity-animation 1.5s;
+}
+
+
+@keyframes opacity-animation {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0; 
+    }
+  }
+
+/* carrusel de bio / alterando un poco el bootstrap */
+
+.carousel-item {
+    height: 80vh;
+}
+
+.slide {
+    width: 100%;
+    padding: 0 60px;
+}
+  
+.carousel-control-next, .carousel-control-prev {
+    width: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .slide {
+        width: 100%;
+        padding: 0 60px;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .carousel-item {
+        height: 110vh;
+    }
+
+    .slide {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: auto;
+        top: auto;
+    }
+}

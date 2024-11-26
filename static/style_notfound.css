@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Futura Condensed Bt';
+    color: #ffff;
+    background-image: url("https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f45179ec5c30b332db9392_fondoportada.jpg");
+    background-position: 50%;
+    background-size: auto;
+    background-attachment: fixed;
+    border-image: fill 0 linear-gradient(rgba(83, 83, 83, 0.067), #080808);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-size: 160px;
+    text-align: center;
+    letter-spacing: 0.7rem;
+    font-weight: 500;
+}
+
+.error_footer {
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.container button {
+    font-family: 'Futura Condensed Bt';
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #04051a;
+    color: #ffff;
+    border: none;
+    border-radius: 40px;
+    padding: 30px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #20419a;
+}
+
+@font-face {
+    font-family: 'Futura Condensed Bt';
+    src: url('/static/futura\ medium\ condensed\ bt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.otg-fade-in{
+    animation: opacity-animation 2.5s;
+}
+
+
+@keyframes opacity-animation {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0; 
+    }
+  }

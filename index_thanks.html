@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+
+<html data-wf-domain="oscar-terans-sales.webflow.io" data-wf-page="65e21abd06dfa75d6b11fdd6"
+    data-wf-site="65e21abc06dfa75d6b11fcc9" data-wf-status="1" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Superventas Inteligentes</title>
+    <meta
+        content="Descubre estrategias probadas y el poder de la IA para destacar en el competitivo mundo de los bienes raíces. Aprende de un top agent y lleva tus ventas al siguiente nivel."
+        name="description" />
+    <meta content="Transfórmate en un listing agent imparable, maximiza tus ventas con Inteligencias Artificial y domina mis 30 secretos infalibles."
+        property="og:title" />
+    <meta
+        content="Descubre estrategias probadas y el poder de la IA para destacar en el competitivo mundo de los bienes raíces. Aprende de un top agent y lleva tus ventas al siguiente nivel."
+        property="og:description" />
+    <meta
+        content="https://lh3.googleusercontent.com/pw/AP1GczPu0CGQPoQianxgSHmBFSjPXeI5IYYnP2Va5WbhdjMYEPzMWZiBM6eLwH6Hh9KPzr0eSNioyBuMJt8he3dN83gLMGzzbsEJNB2h0h54GFVj_m_uUB9Tx3y8IsbZbPizTwMOu5wg1rjMz5uCTuGMbNTF=w1200-h630-s-no-gm?authuser=0"
+        property="og:image" />
+    <meta content="Transfórmate en un listing agent imparable, maximiza tus ventas con Inteligencias Artificial y domina mis 30 secretos infalibles."
+        property="twitter:title" />
+    <meta
+        content="Descubre estrategias probadas y el poder de la IA para destacar en el competitivo mundo de los bienes raíces. Aprende de un top agent y lleva tus ventas al siguiente nivel."
+        property="twitter:description" />
+    <meta
+        content="https://lh3.googleusercontent.com/pw/AP1GczPu0CGQPoQianxgSHmBFSjPXeI5IYYnP2Va5WbhdjMYEPzMWZiBM6eLwH6Hh9KPzr0eSNioyBuMJt8he3dN83gLMGzzbsEJNB2h0h54GFVj_m_uUB9Tx3y8IsbZbPizTwMOu5wg1rjMz5uCTuGMbNTF=w1200-h630-s-no-gm?authuser=0"
+        property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link
+        href="/static/styles_index.css"
+        rel="stylesheet" type="text/css" />
+    <link
+        href="/static/styles_corousel.css"
+        rel="stylesheet" type="text/css" />
+
+    <link
+        href="/static/styles_miscellenious.css"
+        rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <link
+        href="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9bf5e5d9f90a7809665d4_WEBCLIP1%20(1).jpg"
+        rel="shortcut icon" type="image/x-icon" />
+    <link href="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9bd5b6a1479bde3c87417_WEBCLIP1.jpg"
+        rel="apple-touch-icon" />
+</head>
+
+<body class="body-2">
+    {% if Data['thanks'] == 'yes' %}
+    <!-- Modal principal -->
+    <dialog id="active-reader-modal1">
+        <div class="normal-modal-interior">
+            <button type="button" class="btn-close" onclick="document.getElementById('active-reader-modal1').close()"></button>
+            <div class="form-content">
+                <p class="dialog-p-1111">
+                    <strong>Gracias</strong> por dedicar tiempo a leer este libro. Espero que te lleve al éxito en tus ventas.<strong> Ingresa tus datos para enviarte mi playbook.</strong> Ahi encontraras todo lo que necesitas para llevar tu negocio al siguiente nivel. 
+                </p>
+                <div class="field-1111">
+                    <label for="name-pre">Cuéntame, como te llamas: </label>
+                    <input type="email" name="name-pre" id="name-btn-0001">
+                </div>
+                <div class="field-1111">
+                    <label for="email-pre">Déjame tu correo:</label>
+                    <input type="email" name="email-pre" id="email-btn-0001">
+                </div>
+                <div class="buttons-dialog-copy">
+                    <button onclick="subscribe_now('btn-0001')"
+                    class="modal-btn btn-primary w-button" id="btn-0001">Recibir mi Playbook</button>
+                    <div id="add-message-1" style="display: none;"> No has recibido el correo? </div>
+                    <div id="add-message-2" style="display: none;" onclick="resend()"> Reenviar </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <div class="page-wrapper">
+        <div data-w-id="10efd962-88d2-b1c3-11d0-de0d5ca20a9e" style="opacity:0.61" class="top-bar-wrapper">
+            <div class="top-bar-padding small-padding">
+                <div class="container-default w-container">
+                    <div class="top-bar-flex">
+                        <div class="mg-right-24px mg-bt-16px">
+                            <div class="text-200 list">¿Te gustaría estar al tanto de las últimas novedades sobre el
+                                libro?</div>
+                            <div class="button-inside-input-form-block top-bar-input w-form">
+                                <form  class="form-3">
+                                    <div class="position-relative position-topinput">            
+                                        <div class="buttons-row"><a onclick="open_modal()"
+                                            class="btn-primary top-inside-btn w-button">Suscribirme al newsletter</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section top-section-image-right v2 draft">
+            <div class="container-default w-container">
+                <div class="w-layout-grid grid-2-columns _1-col-tablet gap-row-64px"><img
+                        src="/static/superventasmcportadafinalweb.png"
+                        loading="lazy" style="opacity:0" data-w-id="6e484303-bfbb-21f1-68eb-f716493dc086" alt=""
+                        id="w-node-_6e484303-bfbb-21f1-68eb-f716493dc086-6b11fdd6" class="image-18" />
+                    <div data-w-id="6e484303-bfbb-21f1-68eb-f716493dc087"
+                        style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                        class="inner-container _500px _100---tablet"><img
+                            src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas.png"
+                            loading="lazy"
+                            sizes="(max-width: 479px) 95vw, (max-width: 991px) 94vw, (max-width: 1439px) 48vw, (max-width: 1919px) 34vw, 35vw"
+                            srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas-p-3200.png 3200w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f9c39f87cc32ceb0e021fc_titulosuperventas.png 3750w"
+                            alt="" class="image-28" />
+                            <p class="mg-bottom-32px"><strong>¡SUPERVENTAS INTELIGENTES!</strong> no es solo un libro, es una guía práctica ilustrada que te llevará de la mano hoy más que nunca con los cambios inminentes en nuestra industria inmobiliaria, en todo el proceso de <strong>convertirte en el mejor listing agent</strong>. </p>
+                            <p class="mg-bottom-32px">A través de este libro interactivo, tengo el privilegio de compartir contigo <strong> 30 secretos y estrategias </strong> como listing agent que me han llevado no solo a lograr ventas exitosas sino también a posicionarme constantemente entre el <strong> top 1% </strong> de agentes con más ventas en Estados Unidos, según </strong>RealTrends</strong> y </strong> The Wall Street Journal</strong>.</p>
+                            <p class="mg-bottom-32px">Y para hacerlo aún mejor, te revelaré cómo la <strong> inteligencia artificial </strong> cambió mi visión de este negocio, y te ofrezco una colección exclusiva de <strong> más de 30 comandos de AI </strong> diseñados para impulsar tus ventas hoy. Solo tienes que copiarlos, pegarlos en <strong> ChatGPT </strong> o <strong> Gemini </strong> y, ¡ver cómo tus resultados de ventas se elevan!</p>
+                            <p class="mg-bottom-32px">No importa si ya tienes listings o si aún estás buscando tu primera propiedad en exclusividad. No importa en qué país o ciudad estés, <strong>¡SUPERVENTAS INTELIGENTES!</strong> es para ti.</p>
+                        <div class="buttons-row"><a href="https://a.co/d/bBFNn8p" target="_blank"
+                                class="btn-primary button-row top-btn w-button">Comprar Ahora</a></div>
+                    </div>
+                </div>
+            </div>
+            <div data-w-id="6e484303-bfbb-21f1-68eb-f716493dc095" style="opacity:0" class="div-block-15">
+                <div id="w-node-_6e484303-bfbb-21f1-68eb-f716493dc096-6b11fdd6" class="div-block-10"><img
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars.png"
+                        loading="lazy" width="228"
+                        sizes="(max-width: 991px) 32vw, (max-width: 1439px) 23vw, (max-width: 1919px) 16vw, 17vw" alt=""
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars.png 3000w"
+                        class="image-11 wsj-stars" /><img
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo.png"
+                        loading="lazy" width="264"
+                        sizes="(max-width: 991px) 32vw, (max-width: 1439px) 23vw, (max-width: 1919px) 16vw, 17vw" alt=""
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c1b29df3ee9ed39d6503_twsj%20logo.png 3000w"
+                        class="image-12" /><img
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars.png"
+                        loading="lazy" width="230"
+                        sizes="(max-width: 991px) 32vw, (max-width: 1439px) 23vw, (max-width: 1919px) 16vw, 17vw" alt=""
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65e7c18e303c663eea032569_stars.png 3000w"
+                        class="image-10 wsj-stars" /></div>
+                <div class="div-block-14"><img
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal.png"
+                        loading="lazy" sizes="(max-width: 991px) 32vw, 23vw"
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8c501c72d324ac61caa9_the%20real%20deal.png 3000w"
+                        alt="" class="image-19" /><img
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald.png"
+                        loading="lazy" sizes="(max-width: 991px) 32vw, 23vw"
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec89dd5f4b692b317a49a1_themiamiherald.png 3000w"
+                        alt="" class="image-20" /><img
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo.png"
+                        loading="lazy" sizes="(max-width: 991px) 32vw, 23vw"
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65ec8b044e64d3fad5f983b5_harvardlogo.png 3000w"
+                        alt="" class="image-21" /></div>
+            </div>
+        </div>
+        <section data-w-id="b9f05857-70aa-2963-dd09-fa69f6b1e39a" class="section-3">
+            <div class="div-block">
+                <div class="div-block-3 inner-blue-superventas">
+                    <div class="inner-container _580px disponible-title">
+                        <div class="text-center">
+                            <h3 class="heading-2 display-1 superventas-title">CÓMPRALO <strong
+                                    class="bold-text-2">YA</strong> EN <br /></h3>
+                        </div>
+                    </div><a
+                        href="https://a.co/d/bBFNn8p"
+                        class="link-block w-inline-block" target="_blank"><img
+                            src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f453cc776f9046b854bf63_klipartz.com.png"
+                            loading="lazy" width="222" sizes="222px" alt=""
+                            srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f453cc776f9046b854bf63_klipartz.com-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f453cc776f9046b854bf63_klipartz.com-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f453cc776f9046b854bf63_klipartz.com.png 1024w" /></a>
+                </div>
+            </div>
+        </section>
+        <section class="section-10">
+            <div data-w-id="cf982cb4-6b99-634f-6785-e6c581353a0a"
+                style="-webkit-transform:translate3d(32px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(32px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(32px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(32px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                class="div-block-22">
+                <h2 class="heading-9">transfórmate en un <span class="text-span-2">listing agent imparable, maximiza tus
+                        ventas con inteligencia artificial</span> <span>y domina estos</span> <span
+                        class="text-span bluebackground-span">30 secretos infalibles!</span></h2>
+            </div>
+        </section>
+        <div class="section position-relative section-chapters">
+            <div class="div-block-18 div-book-chapters">
+                <div id="w-node-_5c95fc1e-23fa-2d06-047a-8666ddb0c7e2-6b11fdd6">
+                    <h2 class="learn-heading chapters-heading">Capítulos:</h2>
+                    <div class="divider _40px divider-chapters"></div><img class="image-25"
+                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fd9738951b08fa50be404a_chapters.png"
+                        alt=""
+                        style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                        sizes="(max-width: 479px) 469.20001220703125px, (max-width: 767px) 98vw, (max-width: 991px) 83vw, (max-width: 1439px) 85vw, (max-width: 1919px) 77vw, 79vw"
+                        data-w-id="5c95fc1e-23fa-2d06-047a-8666ddb0c7e3" loading="lazy"
+                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fd9738951b08fa50be404a_chapters-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fd9738951b08fa50be404a_chapters-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fd9738951b08fa50be404a_chapters.png 1024w" />
+                    <div data-w-id="eb258cb8-95b6-c602-57c6-94b87b055c96" style="opacity:0" class="div-block-23">
+                        <div class="div-block-24">
+                            <h2 class="heading-10 index-heading">ÍNDICE</h2>
+                        </div>
+                        <div class="div-block-25">
+                            <div class="text-block-3">El impulso que necesitaba vino de un desconocido <br />¿Por qué
+                                este libro es para ti?<br />Cronología de mis ensayos y errores.</div>
+                            <ol role="list" class="list-3">
+                                <li class="list-item-2">¡Visualízate!</li>
+                                <li class="list-item-3">¡Tu meta!</li>
+                                <li class="list-item-4">¡Tu misión!</li>
+                                <li class="list-item-5">¿Cómo conseguir Listings?</li>
+                                <li class="list-item-6">Zona de ataque</li>
+                                <li class="list-item-7">¿Cómo preparar un market report?</li>
+                                <li class="list-item-8">Branding: YouTube, Ads, Emails, WhatsApp, websites and more!
+                                </li>
+                                <li class="list-item-9">Cómo conseguir negocios sin tener experiencia</li>
+                                <li class="list-item-10">Las Rentas traen grandes recompensas</li>
+                                <li class="list-item-11">Cómo transformar un “no” en un “si”</li>
+                                <li class="list-item-12">El poder de ser bilingüe</li>
+                                <li class="list-item-13">La Expectativa correcta</li>
+                                <li class="list-item-14">¿Tomar o No la Exclusividad de Venta, si el cliente no desea
+                                    venderla al precio de mercado?</li>
+                                <li class="list-item-15">Conseguiste un listing, ¿ahora qué?</li>
+                                <li class="list-item-16">¿Qué estás vendiendo?</li>
+                                <li class="list-item-17">Película de Hollywood</li>
+                                <li class="list-item-18">Conquista Vecindarios</li>
+                                <li class="list-item-19">Campaña Presidencial</li>
+                                <li class="list-item-20">¡Libera la Bestia!</li>
+                                <li class="list-item-21">La Confianza</li>
+                                <li class="list-item-22">Showings, Showings, Showings</li>
+                                <li class="list-item-23">Amor a primera vista</li>
+                                <li class="list-item-24">Tu Tiempo</li>
+                                <li class="list-item-25">Seguimiento, Seguimiento, Seguimiento</li>
+                                <li class="list-item-26">¡Tus mejores aliados!</li>
+                                <li class="list-item-27">Open House</li>
+                                <li class="list-item-28">¡Ciérralo!</li>
+                                <li class="list-item-29">¡Un equipo ganador!</li>
+                                <li class="list-item-30">Inteligencia Artificial (AI)</li>
+                                <li>Cómo saber si vas por buen camino</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="divider _40px divider-chapters"></div>
+                </div>
+            </div><a href="https://a.co/d/bBFNn8p" target="_blank" class="btn-primary button-row w-button">Comprar
+                Ahora</a>
+        </div>
+        <div class="section bg-neutral-200 color-opacity-50">
+            <div class="container-default w-container">
+                <h2 data-w-id="1eca846c-9e8d-7dff-c234-45d64fa7d445" class="heading-4">Lo que los lectores dicen:</h2>
+                <div data-delay="3000" data-animation="slide"
+                    class="slider-wrapper bottons-slider---flex-center slider-ultrawide w-slider" data-autoplay="true"
+                    data-easing="ease" data-hide-arrows="false" data-disable-swipe="false"
+                    data-w-id="a4976eb5-f00c-c9ed-1e58-3bf48e15c345" data-autoplay-limit="0" data-nav-spacing="3"
+                    data-duration="500" data-infinite="true">
+                    <div data-w-id="a4976eb5-f00c-c9ed-1e58-3bf48e15c346" class="slider-mask w-slider-mask">
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Con su característico estilo directo y práctico, Oscar Teran te guiará paso a paso por el proceso de convertirte en un Listing Agent excepcional. Con este libro aprenderás a: desarrollar una mentalidad ganadora, conectar con los propietarios de forma efectiva, presentar una oferta irresistible, superar las objeciones con maestría, negociar con astucia y profesionalismo. Si estás listo para llevar tu carrera inmobiliaria al siguiente nivel, este libro es para ti.
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andreína Medina</div>
+                                                </div>
+                                                <div class="text-402 medium"><strong><em class="italic-text">Agente Inmobiliario</em></strong></div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es un crack a gran nivel! He tenido el gran placer de conocerle y trabajar con él desde hace 20 años y no hay nadie con la misma energía, optimismo, transparencia y aptitud que Óscar. Me encanta como quiere comerse el mundo y lo consigue a diario de una manera superefectiva.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Diego Ojeda</div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Rilea Group</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">La experiencia de Oscar Teran en este negocio y el manejo de sus relaciones son un activo que cada día es más escaso en esta industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Santiago Vanegas
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Habitat Development</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Prepárate para sumergirte en la fascinante historia de un líder visionario que ha dejado una marca indeleble en la industria inmobiliaria y en la vida de quienes tienen el agrado de cruzar su camino. ¡Bienvenidos a un viaje de aprendizaje y superación de la mano de uno de los grandes de la inmobiliaria!.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Víctor Hernández</div>
+                                                </div>
+                                                <div class="text-402 medium"> Broker Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Red Point USA</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Listar en el mercado inmobiliario te permite triunfar, y Oscar ha durado por la cantidad y calidad de sus listados.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Orlando Montiel</div>
+                                                </div>
+                                                <div class="text-402 medium">Coach Inmobiliario, Autor</div>
+                                                <div class="text-402 medium secondary-prof">Fundador C5</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar siempre ha sido una persona que siempre ha seguido creciendo y ampliando su base de conocimientos. Siempre ha estado dispuesto a compartir ese conocimiento con otros y este libro es una extensión natural de ello.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Nelson Taracido
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Abogado Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Folio Title</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Todo agente inmobiliario debería tener como meta convertirse en un agente captador de propiedades y dominar un área geográfica, es por eso que les recomiendo este libro para que puedan apalancarse del conocimiento de un experto en la industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Stephanie Cabral </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Teran, además de pertenecer al codiciado top 1% en ventas por el Wall Street Journal, es un imán de inspiración para las nuevas generaciones de agentes inmobiliarios que quieren alcanzar sus sueños en el mercado de bienes raíces en los Estados Unidos y el mundo.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">María Paulina Arango</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es una persona que siempre está buscando ayudar en lo que más pueda, y eso es algo que yo admiro de él. Él siempre está buscando maneras de que su equipo se beneficie de diferentes formas. Oscar tiene mucha experiencia y valor que puede aportar, así que no tengo nada de dudas de que este libro está lleno de mucho valor para ti. Te aseguró que te llevarás muchos aprendizajes de aquí.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Karoll Morales
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Motivadora</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Terán es sinónimo de perseverancia y éxito. A lo largo de su carrera profesional ha dado giros acertados que lo han llevado a mundos tan diversos como la producción de televisión y los bienes raíces. Estoy seguro de que los profesionales de su industria se beneficiarán enormemente de sus estrategias y conocimientos plasmados en este libro.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Alberto Sardiñas</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">TV/Radio/Podcast, Autor</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Tuve la fortuna de conocer a Óscar en el año 2013. Hicimos un click instantáneo . Era fácil al trato, tenía un aura y una energía muy especial que reconozco en grandes líderes de esta industria. Enseguida le sugerí que sacara su licencia de real estate. Pude ver claramente la estrella que era. Me siento super orgullosa al ver  lo bondadoso que es al brindar su conocimiento  y experiencia con los demás.  Me inspira muchísimo a ser un mejor agente inmobiliario.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Jessica Juliao
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">No tengo ninguna duda de que Oscar es un líder transformador. Él busca inspirar a quienes lo rodean a mejorar constantemente y los invita a reflexionar sobre cómo contribuir a la construcción de un mundo mejor. Gracias a él, hemos podido apoyar a muchas personas en América Latina a través de una vivienda digna. Oscar, gracias por ser quien eres y por invitarnos a pensar fuera de la caja. Siempre lo haces con una sonrisa y una buena voluntad para contribuir a mejorar la sociedad.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">David Sánchez</div>
+                                                </div>
+                                                <div class="text-402 medium">CEO Techo US</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Es raro encontrar a alguien en la industria inmobiliaria que no sólo se destaque en su función, sino que también valore tanto el lado humano de la ecuación. Más allá del éxito en el ámbito profesional, fue la calidad humana y genuina lo que transformó nuestra relación comercial en una gran amistad duradera.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Raymundo Del Castillo y Ofer Wainberg
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Mi total admiración a un colega que siempre tiene disposición a compartir su conocimiento.  Eres fuente de inspiración para mi y para quienes te rodean.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Carolina Pacheco</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Nunca habíamos presenciado un momento tan fundamental en nuestra historia donde el espíritu humano y la tecnología llegan a coexistir en una simbiosis tan importante. La era de la Inteligencia Artificial ha llegado, y todas las personas y empresas deberán abrazarla o quedarse atrás. Oscar no solo presenta su increíble trayectoria para enseñar las técnicas para ser la mejor versión de un profesional inmobiliario, sino también de cómo hacerlo inteligentemente y eficientemente usando el poder de la IA.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andres Espinosa Riera
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Director Académico y Profesor Founderz School en colaboración con Microsoft</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Conocí a Oscar y luego de 5 minutos, sentí que era mi amigo de toda la vida, hay personas nacieron para conectar, crear, construir, y Oscar es uno de ellos. Hablar con él es llenarte de energía, inspiración y planes, pero sobre todo es llenarte de aprendizaje.
+                                                Porque si algo lo caracteriza es su generosidad para compartir su camino al éxito, y este libro es su legado, un valioso aliado para todos los que nos apasiona el mundo de Real Estate y negocios.
+                                                No dejes de leerlo, te aseguro que te llevará aún mas cerca de donde quieres llegar. 
+                                                </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Chiquinquirá Delgado
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">Empresaria</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 1919px) 100vw, 76px" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow left---center-center w-slider-arrow-left">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow right---center-center w-slider-arrow-right">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="hidden-on-desktop w-slider-nav w-round"></div>
+                </div>
+                <div data-delay="3000" data-animation="slide"
+                    class="slider-wrapper bottons-slider---flex-center slider-regulardesktop w-slider"
+                    data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false"
+                    data-w-id="24651058-2657-1228-43c8-23b1e13e874c" data-autoplay-limit="0" data-nav-spacing="3"
+                    data-duration="500" data-infinite="true">
+                    <div data-w-id="24651058-2657-1228-43c8-23b1e13e874d" class="slider-mask w-slider-mask">
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Con su característico estilo directo y práctico, Oscar Teran te guiará paso a paso por el proceso de convertirte en un Listing Agent excepcional. Con este libro aprenderás a: desarrollar una mentalidad ganadora, conectar con los propietarios de forma efectiva, presentar una oferta irresistible, superar las objeciones con maestría, negociar con astucia y profesionalismo. Si estás listo para llevar tu carrera inmobiliaria al siguiente nivel, este libro es para ti.
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andreína Medina</div>
+                                                </div>
+                                                <div class="text-402 medium"><strong><em class="italic-text">Agente Inmobiliario</em></strong></div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card card2">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es un crack a gran nivel! He tenido el gran placer de conocerle y trabajar con él desde hace 20 años y no hay nadie con la misma energía, optimismo, transparencia y aptitud que Óscar. Me encanta como quiere comerse el mundo y lo consigue a diario de una manera superefectiva.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Diego Ojeda</div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Rilea Group</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card card3">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">La experiencia de Oscar Teran en este negocio y el manejo de sus relaciones son un activo que cada día es más escaso en esta industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Santiago Vanegas
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Habitat Development</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Prepárate para sumergirte en la fascinante historia de un líder visionario que ha dejado una marca indeleble en la industria inmobiliaria y en la vida de quienes tienen el agrado de cruzar su camino. ¡Bienvenidos a un viaje de aprendizaje y superación de la mano de uno de los grandes de la inmobiliaria!.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Víctor Hernández</div>
+                                                </div>
+                                                <div class="text-402 medium"> Broker Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Red Point USA</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Listar en el mercado inmobiliario te permite triunfar, y Oscar ha durado por la cantidad y calidad de sus listados.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Orlando Montiel</div>
+                                                </div>
+                                                <div class="text-402 medium">Coach Inmobiliario, Autor</div>
+                                                <div class="text-402 medium secondary-prof">Fundador C5</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar siempre ha sido una persona que siempre ha seguido creciendo y ampliando su base de conocimientos. Siempre ha estado dispuesto a compartir ese conocimiento con otros y este libro es una extensión natural de ello.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Nelson Taracido
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Abogado Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Folio Title</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Todo agente inmobiliario debería tener como meta convertirse en un agente captador de propiedades y dominar un área geográfica, es por eso que les recomiendo este libro para que puedan apalancarse del conocimiento de un experto en la industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Stephanie Cabral </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card card3">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Teran, además de pertenecer al codiciado top 1% en ventas por el Wall Street Journal, es un imán de inspiración para las nuevas generaciones de agentes inmobiliarios que quieren alcanzar sus sueños en el mercado de bienes raíces en los Estados Unidos y el mundo.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">María Paulina Arango</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es una persona que siempre está buscando ayudar en lo que más pueda, y eso es algo que yo admiro de él. Él siempre está buscando maneras de que su equipo se beneficie de diferentes formas. Oscar tiene mucha experiencia y valor que puede aportar, así que no tengo nada de dudas de que este libro está lleno de mucho valor para ti. Te aseguró que te llevarás muchos aprendizajes de aquí.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Karoll Morales
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Motivadora</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card card3">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Terán es sinónimo de perseverancia y éxito. A lo largo de su carrera profesional ha dado giros acertados que lo han llevado a mundos tan diversos como la producción de televisión y los bienes raíces. Estoy seguro de que los profesionales de su industria se beneficiarán enormemente de sus estrategias y conocimientos plasmados en este libro.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Alberto Sardiñas</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">TV/Radio/Podcast, Autor</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Tuve la fortuna de conocer a Óscar en el año 2013. Hicimos un click instantáneo . Era fácil al trato, tenía un aura y una energía muy especial que reconozco en grandes líderes de esta industria. Enseguida le sugerí que sacara su licencia de real estate. Pude ver claramente la estrella que era. Me siento super orgullosa al ver  lo bondadoso que es al brindar su conocimiento  y experiencia con los demás.  Me inspira muchísimo a ser un mejor agente inmobiliario.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Jessica Juliao
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card card3">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">No tengo ninguna duda de que Oscar es un líder transformador. Él busca inspirar a quienes lo rodean a mejorar constantemente y los invita a reflexionar sobre cómo contribuir a la construcción de un mundo mejor. Gracias a él, hemos podido apoyar a muchas personas en América Latina a través de una vivienda digna. Oscar, gracias por ser quien eres y por invitarnos a pensar fuera de la caja. Siempre lo haces con una sonrisa y una buena voluntad para contribuir a mejorar la sociedad.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">David Sánchez</div>
+                                                </div>
+                                                <div class="text-402 medium">CEO Techo US</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Es raro encontrar a alguien en la industria inmobiliaria que no sólo se destaque en su función, sino que también valore tanto el lado humano de la ecuación. Más allá del éxito en el ámbito profesional, fue la calidad humana y genuina lo que transformó nuestra relación comercial en una gran amistad duradera.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Raymundo Del Castillo y Ofer Wainberg
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card card3">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Mi total admiración a un colega que siempre tiene disposición a compartir su conocimiento.  Eres fuente de inspiración para mi y para quienes te rodean.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Carolina Pacheco</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Nunca habíamos presenciado un momento tan fundamental en nuestra historia donde el espíritu humano y la tecnología llegan a coexistir en una simbiosis tan importante. La era de la Inteligencia Artificial ha llegado, y todas las personas y empresas deberán abrazarla o quedarse atrás. Oscar no solo presenta su increíble trayectoria para enseñar las técnicas para ser la mejor versión de un profesional inmobiliario, sino también de cómo hacerlo inteligentemente y eficientemente usando el poder de la IA.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andres Espinosa Riera
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Director Académico y Profesor Founderz School en colaboración con Microsoft</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Conocí a Oscar y luego de 5 minutos, sentí que era mi amigo de toda la vida, hay personas nacieron para conectar, crear, construir, y Oscar es uno de ellos. Hablar con él es llenarte de energía, inspiración y planes, pero sobre todo es llenarte de aprendizaje.
+                                                Porque si algo lo caracteriza es su generosidad para compartir su camino al éxito, y este libro es su legado, un valioso aliado para todos los que nos apasiona el mundo de Real Estate y negocios.
+                                                No dejes de leerlo, te aseguro que te llevará aún mas cerca de donde quieres llegar. 
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Chiquinquirá Delgado</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">Empresaria</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 1439px) 100vw, (max-width: 1919px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow left---center-center w-slider-arrow-left">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow right---center-center w-slider-arrow-right">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="hidden-on-desktop w-slider-nav w-round"></div>
+                </div>
+                <div data-delay="3000" data-animation="slide"
+                    class="slider-wrapper bottons-slider---flex-center slider-laptop w-slider" data-autoplay="true"
+                    data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+                    data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div data-w-id="fe8c0745-5e31-ab60-e6bc-4e30e55e4755" class="slider-mask w-slider-mask">
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Con su característico estilo directo y práctico, Oscar Teran te guiará paso a paso por el proceso de convertirte en un Listing Agent excepcional. Con este libro aprenderás a: desarrollar una mentalidad ganadora, conectar con los propietarios de forma efectiva, presentar una oferta irresistible, superar las objeciones con maestría, negociar con astucia y profesionalismo. Si estás listo para llevar tu carrera inmobiliaria al siguiente nivel, este libro es para ti.
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andreína Medina</div>
+                                                </div>
+                                                <div class="text-402 medium"><strong><em class="italic-text">Agente Inmobiliario</em></strong></div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card card2">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es un crack a gran nivel! He tenido el gran placer de conocerle y trabajar con él desde hace 20 años y no hay nadie con la misma energía, optimismo, transparencia y aptitud que Óscar. Me encanta como quiere comerse el mundo y lo consigue a diario de una manera superefectiva.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Diego Ojeda</div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Rilea Group</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">La experiencia de Oscar Teran en este negocio y el manejo de sus relaciones son un activo que cada día es más escaso en esta industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Santiago Vanegas
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Habitat Development</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Prepárate para sumergirte en la fascinante historia de un líder visionario que ha dejado una marca indeleble en la industria inmobiliaria y en la vida de quienes tienen el agrado de cruzar su camino. ¡Bienvenidos a un viaje de aprendizaje y superación de la mano de uno de los grandes de la inmobiliaria!.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Víctor Hernández</div>
+                                                </div>
+                                                <div class="text-402 medium"> Broker Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Red Point USA</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Listar en el mercado inmobiliario te permite triunfar, y Oscar ha durado por la cantidad y calidad de sus listados.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Orlando Montiel</div>
+                                                </div>
+                                                <div class="text-402 medium">Coach Inmobiliario, Autor</div>
+                                                <div class="text-402 medium secondary-prof">Fundador C5</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar siempre ha sido una persona que siempre ha seguido creciendo y ampliando su base de conocimientos. Siempre ha estado dispuesto a compartir ese conocimiento con otros y este libro es una extensión natural de ello.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Nelson Taracido
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Abogado Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Folio Title</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Todo agente inmobiliario debería tener como meta convertirse en un agente captador de propiedades y dominar un área geográfica, es por eso que les recomiendo este libro para que puedan apalancarse del conocimiento de un experto en la industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Stephanie Cabral </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Teran, además de pertenecer al codiciado top 1% en ventas por el Wall Street Journal, es un imán de inspiración para las nuevas generaciones de agentes inmobiliarios que quieren alcanzar sus sueños en el mercado de bienes raíces en los Estados Unidos y el mundo.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">María Paulina Arango</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es una persona que siempre está buscando ayudar en lo que más pueda, y eso es algo que yo admiro de él. Él siempre está buscando maneras de que su equipo se beneficie de diferentes formas. Oscar tiene mucha experiencia y valor que puede aportar, así que no tengo nada de dudas de que este libro está lleno de mucho valor para ti. Te aseguró que te llevarás muchos aprendizajes de aquí.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Karoll Morales
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Motivadora</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Terán es sinónimo de perseverancia y éxito. A lo largo de su carrera profesional ha dado giros acertados que lo han llevado a mundos tan diversos como la producción de televisión y los bienes raíces. Estoy seguro de que los profesionales de su industria se beneficiarán enormemente de sus estrategias y conocimientos plasmados en este libro.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Alberto Sardiñas</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">TV/Radio/Podcast, Autor</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Tuve la fortuna de conocer a Óscar en el año 2013. Hicimos un click instantáneo . Era fácil al trato, tenía un aura y una energía muy especial que reconozco en grandes líderes de esta industria. Enseguida le sugerí que sacara su licencia de real estate. Pude ver claramente la estrella que era. Me siento super orgullosa al ver  lo bondadoso que es al brindar su conocimiento  y experiencia con los demás.  Me inspira muchísimo a ser un mejor agente inmobiliario.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Jessica Juliao
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">No tengo ninguna duda de que Oscar es un líder transformador. Él busca inspirar a quienes lo rodean a mejorar constantemente y los invita a reflexionar sobre cómo contribuir a la construcción de un mundo mejor. Gracias a él, hemos podido apoyar a muchas personas en América Latina a través de una vivienda digna. Oscar, gracias por ser quien eres y por invitarnos a pensar fuera de la caja. Siempre lo haces con una sonrisa y una buena voluntad para contribuir a mejorar la sociedad.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">David Sánchez</div>
+                                                </div>
+                                                <div class="text-402 medium">CEO Techo US</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Es raro encontrar a alguien en la industria inmobiliaria que no sólo se destaque en su función, sino que también valore tanto el lado humano de la ecuación. Más allá del éxito en el ámbito profesional, fue la calidad humana y genuina lo que transformó nuestra relación comercial en una gran amistad duradera.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Raymundo Del Castillo y Ofer Wainberg
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Mi total admiración a un colega que siempre tiene disposición a compartir su conocimiento.  Eres fuente de inspiración para mi y para quienes te rodean.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Carolina Pacheco</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Nunca habíamos presenciado un momento tan fundamental en nuestra historia donde el espíritu humano y la tecnología llegan a coexistir en una simbiosis tan importante. La era de la Inteligencia Artificial ha llegado, y todas las personas y empresas deberán abrazarla o quedarse atrás. Oscar no solo presenta su increíble trayectoria para enseñar las técnicas para ser la mejor versión de un profesional inmobiliario, sino también de cómo hacerlo inteligentemente y eficientemente usando el poder de la IA.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andres Espinosa Riera
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Director Académico y Profesor Founderz School en colaboración con Microsoft</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Conocí a Oscar y luego de 5 minutos, sentí que era mi amigo de toda la vida, hay personas nacieron para conectar, crear, construir, y Oscar es uno de ellos. Hablar con él es llenarte de energía, inspiración y planes, pero sobre todo es llenarte de aprendizaje.
+                                                Porque si algo lo caracteriza es su generosidad para compartir su camino al éxito, y este libro es su legado, un valioso aliado para todos los que nos apasiona el mundo de Real Estate y negocios.
+                                                No dejes de leerlo, te aseguro que te llevará aún mas cerca de donde quieres llegar. 
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Chiquinquirá Delgado</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">Empresaria</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76"
+                                        sizes="(max-width: 767px) 100vw, (max-width: 1439px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow left---center-center w-slider-arrow-left">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow right---center-center w-slider-arrow-right">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="hidden-on-desktop w-slider-nav w-round"></div>
+                </div>
+                <div data-delay="3000" data-animation="slide"
+                    class="slider-wrapper bottons-slider---flex-center slider-smalldevices w-slider"
+                    data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false"
+                    data-w-id="b0edf263-5e34-01e4-8117-0bef45826d78" data-autoplay-limit="0" data-nav-spacing="3"
+                    data-duration="500" data-infinite="true">
+                    <div class="slider-mask w-slider-mask">
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card"><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Con su característico estilo directo y práctico, Oscar Teran te guiará paso a paso por el proceso de convertirte en un Listing Agent excepcional. Con este libro aprenderás a: desarrollar una mentalidad ganadora, conectar con los propietarios de forma efectiva, presentar una oferta irresistible, superar las objeciones con maestría, negociar con astucia y profesionalismo. Si estás listo para llevar tu carrera inmobiliaria al siguiente nivel, este libro es para ti.
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andreína Medina</div>
+                                                </div>
+                                                <div class="text-402 medium"><strong><em class="italic-text">Agente Inmobiliario</em></strong></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card"><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es un crack a gran nivel! He tenido el gran placer de conocerle y trabajar con él desde hace 20 años y no hay nadie con la misma energía, optimismo, transparencia y aptitud que Óscar. Me encanta como quiere comerse el mundo y lo consigue a diario de una manera superefectiva.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Diego Ojeda</div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Rilea Group</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card"><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">La experiencia de Oscar Teran en este negocio y el manejo de sus relaciones son un activo que cada día es más escaso en esta industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Santiago Vanegas
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                                <div class="text-402 medium secondary-prof">CEO Habitat Development</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Prepárate para sumergirte en la fascinante historia de un líder visionario que ha dejado una marca indeleble en la industria inmobiliaria y en la vida de quienes tienen el agrado de cruzar su camino. ¡Bienvenidos a un viaje de aprendizaje y superación de la mano de uno de los grandes de la inmobiliaria!.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Víctor Hernández</div>
+                                                </div>
+                                                <div class="text-402 medium"> Broker Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Red Point USA</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Listar en el mercado inmobiliario te permite triunfar, y Oscar ha durado por la cantidad y calidad de sus listados.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Orlando Montiel</div>
+                                                </div>
+                                                <div class="text-402 medium">Coach Inmobiliario, Autor</div>
+                                                <div class="text-402 medium secondary-prof">Fundador C5</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar siempre ha sido una persona que siempre ha seguido creciendo y ampliando su base de conocimientos. Siempre ha estado dispuesto a compartir ese conocimiento con otros y este libro es una extensión natural de ello.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Nelson Taracido
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Abogado Inmobiliario</div>
+                                                <div class="text-402 medium secondary-prof">CEO Folio Title</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Todo agente inmobiliario debería tener como meta convertirse en un agente captador de propiedades y dominar un área geográfica, es por eso que les recomiendo este libro para que puedan apalancarse del conocimiento de un experto en la industria.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Stephanie Cabral </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Teran, además de pertenecer al codiciado top 1% en ventas por el Wall Street Journal, es un imán de inspiración para las nuevas generaciones de agentes inmobiliarios que quieren alcanzar sus sueños en el mercado de bienes raíces en los Estados Unidos y el mundo.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">María Paulina Arango</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar es una persona que siempre está buscando ayudar en lo que más pueda, y eso es algo que yo admiro de él. Él siempre está buscando maneras de que su equipo se beneficie de diferentes formas. Oscar tiene mucha experiencia y valor que puede aportar, así que no tengo nada de dudas de que este libro está lleno de mucho valor para ti. Te aseguró que te llevarás muchos aprendizajes de aquí.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Karoll Morales
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Motivadora</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Oscar Terán es sinónimo de perseverancia y éxito. A lo largo de su carrera profesional ha dado giros acertados que lo han llevado a mundos tan diversos como la producción de televisión y los bienes raíces. Estoy seguro de que los profesionales de su industria se beneficiarán enormemente de sus estrategias y conocimientos plasmados en este libro.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Alberto Sardiñas</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">TV/Radio/Podcast, Autor</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Tuve la fortuna de conocer a Óscar en el año 2013. Hicimos un click instantáneo . Era fácil al trato, tenía un aura y una energía muy especial que reconozco en grandes líderes de esta industria. Enseguida le sugerí que sacara su licencia de real estate. Pude ver claramente la estrella que era. Me siento super orgullosa al ver  lo bondadoso que es al brindar su conocimiento  y experiencia con los demás.  Me inspira muchísimo a ser un mejor agente inmobiliario.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Jessica Juliao
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">No tengo ninguna duda de que Oscar es un líder transformador. Él busca inspirar a quienes lo rodean a mejorar constantemente y los invita a reflexionar sobre cómo contribuir a la construcción de un mundo mejor. Gracias a él, hemos podido apoyar a muchas personas en América Latina a través de una vivienda digna. Oscar, gracias por ser quien eres y por invitarnos a pensar fuera de la caja. Siempre lo haces con una sonrisa y una buena voluntad para contribuir a mejorar la sociedad.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">David Sánchez</div>
+                                                </div>
+                                                <div class="text-402 medium">CEO Techo US</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Es raro encontrar a alguien en la industria inmobiliaria que no sólo se destaque en su función, sino que también valore tanto el lado humano de la ecuación. Más allá del éxito en el ámbito profesional, fue la calidad humana y genuina lo que transformó nuestra relación comercial en una gran amistad duradera.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Raymundo Del Castillo y Ofer Wainberg
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Real Estate Developer</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Mi total admiración a un colega que siempre tiene disposición a compartir su conocimiento.  Eres fuente de inspiración para mi y para quienes te rodean.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Carolina Pacheco</div>
+                                                </div>
+                                                <div class="text-402 medium">Agente Inmobiliario</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Nunca habíamos presenciado un momento tan fundamental en nuestra historia donde el espíritu humano y la tecnología llegan a coexistir en una simbiosis tan importante. La era de la Inteligencia Artificial ha llegado, y todas las personas y empresas deberán abrazarla o quedarse atrás. Oscar no solo presenta su increíble trayectoria para enseñar las técnicas para ser la mejor versión de un profesional inmobiliario, sino también de cómo hacerlo inteligentemente y eficientemente usando el poder de la IA.</p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Andres Espinosa Riera
+                                                    </div>
+                                                </div>
+                                                <div class="text-402 medium">Director Académico y Profesor Founderz School en colaboración con Microsoft</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item-pd slider-laptop w-slide">
+                            <div class="inner-container _596px center">
+                                <div class="card-2 center-content-testimonial testimonial-card">
+                                    <div class="inner-container _350px">
+                                        <div class="text-center-2">
+                                            <p class="mg-bottom-24px-2">Conocí a Oscar y luego de 5 minutos, sentí que era mi amigo de toda la vida, hay personas nacieron para conectar, crear, construir, y Oscar es uno de ellos. Hablar con él es llenarte de energía, inspiración y planes, pero sobre todo es llenarte de aprendizaje.
+                                                Porque si algo lo caracteriza es su generosidad para compartir su camino al éxito, y este libro es su legado, un valioso aliado para todos los que nos apasiona el mundo de Real Estate y negocios.
+                                                No dejes de leerlo, te aseguro que te llevará aún mas cerca de donde quieres llegar. 
+                                            </p>
+                                            <div>
+                                                <div class="mg-bottom-4px">
+                                                    <div class="text-401 bold color-neutral-800">Chiquinquirá Delgado</div>
+                                                </div>
+                                                <div class="text-402 medium">Personalidad Hispana</div>
+                                                <div class="text-402 medium secondary-prof">Empresaria</div>
+                                            </div>
+                                        </div>
+                                    </div><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png"
+                                        loading="lazy" width="76" sizes="(max-width: 767px) 76px, 100vw" alt=""
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65f460c2cb199b20c2f0bc15_6_quotation_marks_signs-ai.png 1024w"
+                                        class="image-23 comillas" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow left---center-center w-slider-arrow-left">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="btn-circle-primary-2 slider-arrow right---center-center w-slider-arrow-right">
+                        <div class="line-rounded-icon"></div>
+                    </div>
+                    <div class="hidden-on-desktop w-slider-nav w-round"></div>
+                </div>
+            </div><a href="https://a.co/d/bBFNn8p" class="btn-primary button-row w-button" target="_blank">Comprar
+                Ahora</a>
+        </div>
+        <section class="section-9">
+            <div id="w-node-_44c2e621-9d34-94f2-18de-872a653419cd-6b11fdd6"
+                data-w-id="44c2e621-9d34-94f2-18de-872a653419cd"
+                style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                class="card abouth-author-card"><img sizes="(max-width: 767px) 100vw, (max-width: 991px) 46vw, 43vw"
+                    srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fdc3440a0d845132ab38c7_foto%20bio%20%231-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fdc3440a0d845132ab38c7_foto%20bio%20%231-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fdc3440a0d845132ab38c7_foto%20bio%20%231-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fdc3440a0d845132ab38c7_foto%20bio%20%231-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fdc3440a0d845132ab38c7_foto%20bio%20%231.png 1967w"
+                    loading="eager"
+                    src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/65fdc3440a0d845132ab38c7_foto%20bio%20%231.png"
+                    alt="" class="_w-h-100 fit-cover display-block" /></div>
+            <div data-w-id="060db84e-df15-60d7-1f3f-4b7d710cca16"
+                style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                class="inner-container _484px _100---mbl _600px">
+                <div>
+                    <h2 class="display-2">Sobre el autor Oscar Terán</h2>
+                </div>
+                <div class="divider _40px"></div>
+                <div class="div-block-17">
+                    <div class="author-flex-top">
+                        <div class="badge-primary small light">Ranked Top 1% USA by WSJ</div>
+                        <div class="badge-primary small light">One Billion Dollars in Sales</div>
+                        <div class="badge-primary small light">1,000+ Homes Sold</div>
+                        <div class="badge-primary small light">CEO Oscar Teran Group</div>
+                        <div class="badge-primary small light">Speaker &amp; Author</div>
+                    </div>
+                    <div data-delay="4000" data-animation="slide"
+                        class="slider-wrapper bottons-slider---flex-center w-slider" data-autoplay="false"
+                        data-easing="ease" style="opacity:0" data-hide-arrows="false" data-disable-swipe="false"
+                        data-w-id="740819e9-0fc9-907f-7c17-5cf4d451b758" data-autoplay-limit="0" data-nav-spacing="3"
+                        data-duration="500" data-infinite="true">
+                        <div class="slider-mask w-slider-mask">
+                            <div class="slider-item-pd mybio-slider w-slide">
+                                <div class="inner-container _596px center">
+                                    <div class="card-2 center-content-testimonial mybio-card">
+                                        <div class="inner-container _350px mybio-innercont">
+                                            <div class="text-center-2 mybio-text">
+                                                <p class="mg-bottom-24px-2 mibyo-text">En la última década, Oscar Terán,
+                                                    junto a su legendario equipo de ventas inmobiliarias con más de 100
+                                                    agentes, ha mantenido consistentemente su posición entre los
+                                                    principales equipos de ventas en USA especialmente en la Florida,
+                                                    obteniendo el distinguido título del top 1% de agentes en ventas en
+                                                    los Estados Unidos, según RealTrends y el Wall Street
+                                                    Journal.<br /><br />Su destacado logro incluye mil millones de
+                                                    dólares en ventas cerradas de bienes raíces y una clientela
+                                                    satisfecha que supera el millar. La actitud intrépida y emprendedora
+                                                    de Oscar y su equipo tiene raíces profundas en una sólida base de
+                                                    conocimientos empresariales, experiencia en marketing y un enfoque
+                                                    fresco hacia bienes raíces de lujo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item-pd mybio-slider w-slide">
+                                <div class="inner-container _596px center">
+                                    <div class="card-2 center-content-testimonial mybio-card">
+                                        <div class="inner-container _350px mybio-innercont">
+                                            <div class="text-center-2 mybio-text">
+                                                <p class="mg-bottom-24px-2 mibyo-text">A lo largo de su carrera de
+                                                    negocios, ha cultivado experiencia internacionalen Estados Unidos,
+                                                    Venezuela, Perú, República Dominicana y China. Posee un MBA de la
+                                                    prestigiosa Universidad de Pekín en China, donde residió durante
+                                                    tres años. Habla inglés y español con fluidez, y tiene habilidades
+                                                    básicas de mandarín.<br /><br />Oscar es un versátil profesional de
+                                                    ventas globales en bienes raíces, comenzando su trayectoria en el
+                                                    mundo inmobiliario con el renombrado desarrollador de Miami, The
+                                                    Rilea Group.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item-pd mybio-slider w-slide">
+                                <div class="inner-container _596px center">
+                                    <div class="card-2 center-content-testimonial mybio-card">
+                                        <div class="inner-container _350px mybio-innercont">
+                                            <div class="text-center-2 mybio-text">
+                                                <p class="mg-bottom-24px-2 mibyo-text">Recientemente, Oscar agregó un
+                                                    Certificado en Negociación y Liderazgo de la Universidad de Harvard,
+                                                    a su extenso conjunto de habilidades y títulos. Además, se debe
+                                                    sumar su compromiso con la responsabilidad social que se refleja en
+                                                    cada venta de propiedad que realiza, ya que una parte es donada a
+                                                    TECHO, una organización sin fines de lucro dedicada a construir
+                                                    hogares y comunidades en América Latina. Las contribuciones de su
+                                                    equipo ha impactado de manera positiva a más de 50 familias,
+                                                    resultando en la edificación del mismo número de
+                                                    hogares.<br /><br />Reconocido como una figura respetada en la
+                                                    comunidad inmobiliaria, Oscar se desempeña como orador frecuente en
+                                                    eventos prestigiosos como Inman Connect1, C5 Retiros Inmobiliarios,
+                                                    así como ha sido juez en los premios Miami Herald Silver Knight2.
+                                                    Sus estadísticas clave abarcan más de una década como Broker
+                                                    Associate, con mil millones de dólares en ventas y el reconocimiento
+                                                    como uno de los &lt;20 Menores de 40=’ por la Asociación de Agentes
+                                                    Inmobiliarios de Miami.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="btn-circle-primary-2 slider-arrow left---center-center mybio-arrow w-slider-arrow-left">
+                            <div class="line-rounded-icon"></div>
+                        </div>
+                        <div class="btn-circle-primary-2 slider-arrow right---center-center w-slider-arrow-right">
+                            <div class="line-rounded-icon"></div>
+                        </div>
+                        <div class="hidden-on-desktop w-slider-nav w-round"></div>
+                    </div>
+                    <div class="divider _32px _20px---mbl"></div>
+                    <div class="flex-horizontal space-between wrap---gap-16px">
+                        <div class="social-links-flex-container"><a href="https://www.facebook.com/OscarTeranGroup"
+                                target="_blank" class="social-link-single w-inline-block">
+                                <div class="social-icon-font"></div>
+                            </a><a href="https://twitter.com/oscarteran" target="_blank"
+                                class="social-link-single w-inline-block">
+                                <div class="social-icon-font"></div>
+                            </a><a href="https://www.instagram.com/oscarterangroup/" target="_blank"
+                                class="social-link-single w-inline-block">
+                                <div class="social-icon-font"></div>
+                            </a><a href="https://www.linkedin.com/in/oscarteran/" target="_blank"
+                                class="social-link-single w-inline-block">
+                                <div class="social-icon-font"></div>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="MultiCarousel" data-items="1,3,3,4" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-1.png"/>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-2.png"/>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-3.png"/>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-4.jpg"/>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-5.png"/>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-6.jpg"/>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-7.png"/>
+                                </div>
+                            </div>   
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-8.png"/>
+                                </div>
+                            </div>   
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-9.png"/>
+                                </div>
+                            </div>   
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="/static/car-10.png"/>
+                                </div>
+                            </div>   
+                        </div>
+                        <button class="btn btn-primary leftLst"><</button>
+                        <button class="btn btn-primary rightLst">></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-4">
+            <div class="container-default w-container"></div>
+        </div>
+        <div class="div-block-16"><a data-w-id="0c3e1069-829e-9eb5-6030-7bdc65660522" style="opacity:1"
+                href="https://a.co/d/bBFNn8p" class="button btn-primary fixed-buy-btn w-button" target="_blank">Order now</a>
+        </div>
+        <footer class="footer-wrapper top-mg-decoration">
+            <div class="bg-accent-1">
+                <div class="container-default w-container">
+                    <div class="w-layout-grid grid-footer-2-columns">
+                        <div id="w-node-_34fd9c5e-f80a-3229-4b3b-9569153803cc-91dd5701"
+                            class="inner-container _556px _100---tablet">
+                            <div>
+                                <div class="inner-container _264px"><img
+                                        src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi.png"
+                                        loading="lazy"
+                                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 55vw, (max-width: 991px) 38vw, (max-width: 1919px) 24vw, 25vw"
+                                        srcset="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-500.png 500w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-800.png 800w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-1080.png 1080w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-1600.png 1600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-2000.png 2000w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-2600.png 2600w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi-p-3200.png 3200w, https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/66031a56c8ab47ff089bd111_svi.png 3750w"
+                                        alt="" class="image-27" /></div>
+                            </div>
+                            <div class="footer-middle div-block-11">
+                                <div class="inner-container _264px">
+                                    <div class="div-block-27"><a href="https://a.co/d/bBFNn8p" target="_blank"
+                                            class="btn-primary bottom-button w-button">Comprar Ahora</a>
+                                        <div class="social-links-flex-container social-links-footer"><a
+                                                href="https://www.facebook.com/OscarTeranGroup" target="_blank"
+                                                class="social-link-single w-inline-block">
+                                                <div class="social-icon-font icon-font-footer"></div>
+                                            </a><a href="https://www.youtube.com/channel/UCRT1y1MF_m3j-0LuoY6O7XQ?view_as=subscriber" target="_blank"
+                                            class="social-link-single w-inline-block">
+                                                <div class="social-icon-font icon-font-footer"></div>
+                                            </a><a href="https://www.instagram.com/oscarterangroup/" target="_blank"
+                                                class="social-link-single w-inline-block">
+                                                <div class="social-icon-font icon-font-footer"></div>
+                                            </a><a href="https://www.linkedin.com/in/oscarteran/" target="_blank"
+                                                class="social-link-single w-inline-block">
+                                                <div class="social-icon-font icon-font-footer"></div>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-w-id="34fd9c5e-f80a-3229-4b3b-956915380428" class="footer-bottom">
+                                <p class="color-neutral-100 mg-bottom-0">Copyright © 2024 | Superventas inteligentes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65e21abc06dfa75d6b11fcc9"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="https://assets-global.website-files.com/65e21abc06dfa75d6b11fcc9/js/webflow.481903c79.js"
+        type="text/javascript"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+    <script src="/static/carousel.js"></script>
+    <script src="/static/index-thanks.js"></script>
+    {% endif %}
+</body>
+
+</html>

@@ -12024,6 +12024,9 @@
     .image-27 {
       width: 100%;
     }
+    .image-28 {
+      max-width: 95vw;
+    }
   
     .div-block-27 {
       grid-column-gap: 27px;
